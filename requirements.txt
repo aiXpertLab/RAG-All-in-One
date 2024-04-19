@@ -11,3 +11,5 @@ yfinance
 numpy
 pandas
 scikit-learn
+langchain_community
+langchain
