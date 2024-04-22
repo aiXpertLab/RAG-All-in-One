@@ -1,8 +1,8 @@
 import streamlit as st
-from utils import st_def, tab_dl
+from utils import st_def, tab_rag
 
 st_def.st_logo(title = "👋Transformer 2: Feature Engineering", page_title="Text Cleaning",)
-tab_dl.st_dl3()
+tab_rag.st_dl3()
 #------------------------------------------------------------------------
 import tensorflow as tf
 import keras

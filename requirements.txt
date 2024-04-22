@@ -13,3 +13,6 @@ pandas
 scikit-learn
 langchain_community
 langchain
+langchain_experimental
+selenium
+unstructured

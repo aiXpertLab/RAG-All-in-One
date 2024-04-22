@@ -1,9 +1,9 @@
 import streamlit as st
 import numpy as np
-from utils import st_def, st_nn
+from utils import st_def, tag_web
 
 st_def.st_logo(title = "👋 Making Your First Prediction", page_title="Summary",)
-st_nn.st_nn2()
+tag_web.st_nn2()
 # ------------------------------------------------------------------------------------------------------------------------
 def sigmoid(x):
     return 1 / (1 + np.exp(-x))

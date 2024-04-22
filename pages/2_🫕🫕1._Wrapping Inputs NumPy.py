@@ -1,9 +1,9 @@
 import streamlit as st
 import numpy as np
-from utils import st_def, st_nn
+from utils import st_def, tag_web
 
 st_def.st_logo(title = "👋 Wrapping the Inputs of the Neural Network With NumPy", page_title="Summary",)
-st_nn.st_nn1()
+tag_web.st_nn1()
 # ------------------------------------------------------------------------------------------------------------------------
 def main():
     st.code('''
