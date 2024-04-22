@@ -3,7 +3,7 @@ from utils import st_def, tag_web
 
 st_def.st_logo(title='👋RAG Web News!', page_title="RAG",)
 # #-----------------------------------------------
-tab1, tab2, tab3 = st.tabs(["🔰Prototype", "News", "Conclusion🏅"])
+tab1, tab2, tab3 = st.tabs(["🔰Prototype", "Ragas", "Conclusion🏅"])
 
 with tab2: tag_web.news()
 with tab1:
